@@ -10,7 +10,7 @@ let scrollDirection = 1;
 const frameCount = 192;
 const frameSources = Array.from(
   { length: frameCount },
-  (_, index) => `.frame-${String(index).padStart(4, "0")}.jpg`,
+  (_, index) => `frame-${String(index).padStart(4, "0")}.jpg`,
 );
 const preloadedFrames = new Array(frameCount);
 let currentFrameIndex = -1;
