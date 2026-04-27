@@ -74,7 +74,7 @@ body::before {
   height: 100%;
   display: block;
   object-fit: contain;
-  background: rgba(231, 238, 244, 0.92);
+  background: transparent;
 }
 
 .page-shell {
